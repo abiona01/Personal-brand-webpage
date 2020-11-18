@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome -->
+
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+   <!--Import Google Icon Font-->
+ 
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ 
+   <!-- Compiled and minified CSS -->
+ 
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <title>Personal Brand Website</title>
+    <style>
+        header {
+            background: url(images/dev3.jpg);
+            background-size: cover;
+            background-position: center;
+            min-height: 1000px;
+        }
+        .front {
+            margin-top: 130px;
+            font-size: xx-large;
+        }
+        .section{
+            background-color: #efebe900;
+          padding-top: 4vw;
+          padding-bottom: 4vw;
+        }
+        .section2 {
+            background-color: rgba(169, 169, 169, 0.747);
+            padding-top: 4vw;
+          padding-bottom: 4vw;  
+        }
+        @media screen and (max-width: 670px){
+          header  {
+            min-height: 500px;
+          }
+        }
+        .named {
+            margin-top: -15px;
+        }
+        .intro {
+            font-size: 30px;
+            margin-top: 550px;
+            font-weight: 600;
+        }
+        .form {
+            background-color: rgba(158, 158, 158, 0.747);
+            background-size: cover;
+            padding-top: 4vw;
+          padding-bottom: 4vw;
+        }
+    </style>
+</head>
+<body>
+    <!---------navbar-->
+    <header id="home">
+        <nav class="nav-wrapper grey darken-1">
+            <div class="container">
+                <a href="" class="brand-logo" style="font-size: x-large;">Abiona Quadrat A.</a>
+                <a href="" class="sidenav-trigger" data-target="mobile-menu">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About </a></li>
+                    <li><a href="#portfolio">Porfolio</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <ul class="sidenav blue-grey lighten-5" id="mobile-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#portfolio">Porfolio</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container center front">FRONTEND DEVELOPER</div>
+    </header>
+    <!-----About Me-->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 l5 offset-1">
+                    <h2 class="grey-text text-darken-4">About Me</h2>
+                    <p id="mine">My name is Abiona Quadrat Adewemimo. I am a frontend developer, i am well versed with the usage of HTML5, CSS3 and Javascript to build beautiful, functional and resposive web pages.</p>
+                    <a href="#" class="btn teal darken-3" onclick="myFunction();">Know more</a>
+                    <p id="more"></p>
+                </div>
+                <div class="col s12 l4">
+                    <img src="images/ADEWEMIMO-2.jpg" alt="My picture" class="responsive-img materialboxed me">
+                </div>
+                
+            </div>
+        </div>
+        
+    </section>
+    <!----Porfolio-->
+    <section class="section2" id="portfolio">
+        <div class="row">
+            <h3 class="center" >PORTFOLIO</h3>
+            <div class="col s12 l4">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-image">
+                            <img src="images/snip3.png" alt="">
+                        </div>
+                        <span class="card-title">Omnifood Webpage</span>
+                        <p>Omnifood is a new premium food delivery service, that caters to the needs of customers who are too busy to cook, or just do not want to cook.</p>
+                        <a href="https://nifty-yalow-340d24.netlify.app/" class ="btn center white-text" target="_blank" style="color:teal; margin-left: 150px; margin-top: 10px;">Go to page</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 l4">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-image">
+                            <img src="images/snip1.png" alt="">
+                        </div>
+                        <span class="card-title">Deluxxe Webpage</span>
+                        <p>Deluxxe is a food delivery service, that caters to the needs of customers who want to eat local dishes, but can't or won't make the dishes themselves.</p>
+                        <a href="https://dazzling-bhabha-c9f940.netlify.app/" class ="btn center white-text" target="_blank" style="color:teal; margin-left: 150px; margin-top: 10px;">Go to page</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 l4">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-image">
+                            <img src="images/snip4.png" alt="">
+                        </div>
+                        <span class="card-title">Temperature Converter</span>
+                        <p>The temperature converter is a miniapp that converts temperature in degree celsius to degree fahrenheit and viceversa.</p>
+                        <a href="https://abiona01.github.io/Temp_app/app.html" class ="btn center white-text" target="_blank" style="color:teal; margin-left: 150px; margin-top: 10px;">Go to page</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------Services------------------>
+    <section class="section2">
+        <div class="container">
+            <h2>My services include;</h2>
+            <ol>
+                <li>Building webpages</li>
+                <li>Optimizing navigation on webpages</li>
+                <li>Maintaining software workflow management</li>
+                <li>Search Engine Optimization</li>
+                <li>Edit and control content displayed on the website</li>
+                <li>Customize, maintain and create the User Interface and design.</li>
+            <ol>
+        </div>
+    </section>
+    <!-- contact form -->
+<section class=" section form"  id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 l5">
+              <h2 class="grey-text text-darken-4">Get in touch</h2>
+              <p class="texts">Get in touch with me so we can discuss how to go about building you a beautiful, functional amd responsive webpage or optimize your current webpage</p>
+            </div>
+            <div class="col s12 l5 offset-l2">
+              <form action="">
+                <div class="input-field">
+                  <i class="material-icons prefix">person</i>
+                  <input type="text" id="name">
+                  <label for="name">Your Name</label>
+                </div>
+                <div class="input-field">
+                  <i class="material-icons prefix">email</i>
+                  <input type="email" id="email">
+                  <label for="email">Your Email</label>
+                </div>
+                <div class="input-field">
+                  <i class="material-icons prefix">message</i>
+                  <textarea class="materialize-textarea" id="message" cols="30" rows="10"></textarea>
+                  <label for="message">Your Message</label>
+                </div>
+              </form>
+            </div>
+          </div>
+    </div>
+    
+  </section>
+  
+  
+    <!-- footer -->
+  <footer class="page-footer grey darken-1">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 l6">
+          <h5>About Me</h5>
+          <p>I'm a superhero</p>
+          <p>Building responsive, functional webpages is my superpower.</p>
+        </div>
+        <div class="col s12 l4 offset-l2">
+          <h5>Connect</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-2" href="#">Twitter</a></li>
+            <li><a class="grey-text text-lighten-2" href="#">LinkedIn</a></li>
+            <li><a class="grey-text text-lighten-2" href="#">Github</a></li>
+            <li><a class="grey-text text-lighten-2" href="#">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright grey darken-1">
+      <div class="container center-align">&copy; 2020 Adewemimo</div>
+    </div>
+  </footer>
+  
+    <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+         $('.sidenav').sidenav();
+         $('.materialboxed').materialbox();
+    });
+    function myFunction() {
+        var knowMore = "I\'m a graduate of biochemistry from Obafemi Awolowo University. Yes, i\'m really a biochemist, coding is sometihing i happened to come accross, i wasn\'t looking for it. Anyway, i wrote my first code(whispers \"hello world\"), put in effort and here i am.";
+        document.getElementById("more").innerHTML = knowMore;
+    }
+    </script>
+
+</body>
+</html>
